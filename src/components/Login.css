@@ -1,0 +1,197 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f8f9fa; /* Optional: for better visibility */
+}
+
+.login-container {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /* Optional: to distinguish the container */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-container h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-container form {
+  width: 100%; /* Ensures the form takes up the full width of the container */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-container input {
+  width: 90%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+  text-align: center; /* Teks pesan kesalahan diposisikan di tengah */
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.col-md-3 {
+  width: 25%;
+  height: 100%;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.col-md-9 {
+  width: 75%;
+  height: 100%;
+  padding: 20px;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.card-header {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-bottom: none;
+  font-weight: bold;
+}
+
+.list-group {
+  margin-bottom: 0;
+}
+
+.list-group-item {
+  padding: 10px;
+  border-bottom: 1px solid #f5f5f5;
+  font-size: 14px;
+}
+
+.list-group-item i {
+  margin-right: 10px;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-stats {
+  margin-bottom: 15px;
+}
+
+.card-stats .numbers {
+  display: flex;
+  align-items: center;
+}
+
+.card-stats .card-category {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.card-stats .card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-chart {
+  height: 200px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  border: 1px solid #f5f5f5;
+}
+
+.table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+.table td:last-child {
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .col-md-3,
+  .col-md-9 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  /* CSS untuk tampilan di perangkat lunak dengan ukuran layar lebih besar dari 992px */
+
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .col-md-3,
+  .col-md-9 {
+    width: 100%;
+  }
+
+  .card-stats {
+    margin-bottom: 20px;
+  }
+}

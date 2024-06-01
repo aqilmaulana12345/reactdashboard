@@ -1,0 +1,23 @@
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 3px; /* Set the gap between the cards */
+  margin-top: 20px; /* Additional margin top to separate from navbar */
+}
+
+/* user.css */
+
+/* Pagination */
+.pagination {
+  font-size: 1.2rem; /* Sesuaikan ukuran font sesuai kebutuhan */
+}
+
+/* Tabel */
+.table {
+  font-size: 1.2rem; /* Sesuaikan ukuran font sesuai kebutuhan */
+}
+
+/* Jika ingin memperbesar juga header tabel */
+.table thead th {
+  font-size: 5.3rem; /* Sesuaikan ukuran font sesuai kebutuhan */
+}
