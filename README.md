@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+#user 
+email:user@gmail.com
+password: userpassword 
+
+#admin
+email:admin@gmail.com
+password : adminpassword 
+
+disini user hanya bisa membuka file tickets saja sedangkan admin bisa membuka semuanya .
